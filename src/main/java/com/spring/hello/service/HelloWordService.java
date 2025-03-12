@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 public class HelloWordService {
 
     public HelloWord getHelloWord(){
-        return new HelloWord("Coucou");
+        return new HelloWord("Coucou le Monde");
     }
 }

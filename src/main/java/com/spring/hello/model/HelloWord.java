@@ -1,5 +1,6 @@
 package com.spring.hello.model;
 
+
 public class HelloWord {
     private String value;
 
@@ -9,11 +10,12 @@ public class HelloWord {
     public String getValue(){
         return this.value;
     }
-    public String setValue(String value){
-        return this.value = value;
+    public void setValue(String value){
+        this.value = value;
     }
 
+    @Override
     public String toString(){
-        return value;
+        return this.value;
     }
 }
